@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="Создание заявки (ремонт ПК)"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Основной контент в рамке -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            android:padding="20dp">
+
+            <!-- Имя -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Имя"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Иван"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Фамилия -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Фамилия"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etLastName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Петров"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Отчество -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отчество"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etMiddleName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Иванович"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Email -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="example@mail.com"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Адрес -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Адрес"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="г. Москва, ул. Пушкина, д. 10"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Комментарий -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Описание неисправности"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etComment"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Кратко опишите проблему"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:gravity="top"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Выбор даты и времени -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Выберите дату и время"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnPickDate"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Выберите дату"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btn_secondary"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="8dp" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnPickTime"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Выберите время"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btn_secondary"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPicked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дата: — Время: —"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginBottom="32dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Отправить заявку"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_primary"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
