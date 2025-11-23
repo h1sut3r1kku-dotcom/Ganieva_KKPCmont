@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/card_dark_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Список заявок"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- === Ремонт техники === -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ремонт техники"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Кнопки сортировки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnSortTechDate"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/btn_secondary"
+                android:text="По дате"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnSortTechName"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По имени"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white"
+                android:layout_marginEnd="4dp" />
+            <Button
+                android:id="@+id/btnSortTechStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По статусу"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_tech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/input_bg"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- === Ремонт компьютера === -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ремонт компьютера"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Кнопки сортировки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginBottom="8dp">
+            <Button
+                android:id="@+id/btnSortPcDate"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По дате"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white"
+                android:layout_marginEnd="4dp" />
+            <Button
+                android:id="@+id/btnSortPcName"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По имени"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white"
+                android:layout_marginEnd="4dp" />
+            <Button
+                android:id="@+id/btnSortPcStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По статусу"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/input_bg"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- === Вызов мастера === -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вызов мастера"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Кнопки сортировки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnSortMasterDate"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/btn_secondary"
+                android:text="По дате"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnSortMasterName"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По имени"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white"
+                android:layout_marginEnd="4dp" />
+            <Button
+                android:id="@+id/btnSortMasterStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="По статусу"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_secondary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_master"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/input_bg"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

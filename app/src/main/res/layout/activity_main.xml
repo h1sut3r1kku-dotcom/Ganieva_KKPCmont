@@ -9,8 +9,8 @@
     <!-- Полупрозрачный фон под кнопки -->
     <View
         android:id="@+id/background_rectangle"
-        android:layout_width="291dp"
-        android:layout_height="283dp"
+        android:layout_width="279dp"
+        android:layout_height="403dp"
         android:layout_centerInParent="true"
         android:background="@drawable/rounded_background"
         android:padding="24dp" />
@@ -33,9 +33,18 @@
             android:textColor="@color/title_color"
             android:textSize="30sp"
             android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCreateRepair"
+            android:id="@+id/btn_create_request"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -45,11 +54,22 @@
             android:textSize="14sp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnProfile"
+            android:id="@+id/btn_requests_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_secondary"
+            android:text="Список заявок"
+            android:textColor="@color/button_text"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:background="@drawable/btn_primary"
-            android:text="Профиль"
+            android:text="Статистика"
             android:textColor="@color/button_text" />
 
     </LinearLayout>

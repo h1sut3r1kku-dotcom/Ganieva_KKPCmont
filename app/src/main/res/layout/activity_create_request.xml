@@ -5,7 +5,6 @@
     android:padding="16dp"
     android:background="@color/background_color">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:gravity="center"
-            android:text="Создание заявки (ремонт ПК)"
+            android:text="Создание заявки"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -88,6 +87,45 @@
                 android:padding="12dp"
                 android:layout_marginBottom="20dp" />
 
+            <!-- Телефон -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Телефон"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:hint="+7 (___) ___-____"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Модель -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Модель"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <EditText
+                android:id="@+id/etModel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="MacBook Pro"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
             <!-- Email -->
             <TextView
                 android:layout_width="match_parent"
@@ -123,6 +161,22 @@
                 android:hint="г. Москва, ул. Пушкина, д. 10"
                 android:textColorHint="@color/gray"
                 android:textColor="@color/white"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Категория -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Категория"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:background="@drawable/input_bg"
                 android:padding="12dp"
                 android:layout_marginBottom="20dp" />

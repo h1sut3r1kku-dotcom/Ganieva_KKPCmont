@@ -1,4 +1,4 @@
-\<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="title_color">#FFC400</color>
     <color name="background_color">#225453</color>
@@ -9,6 +9,8 @@
     <color name="text_color_2">#0d2020</color>
     <color name="gray">#FF757575</color>
     <color name="card_dark_bg">#FF212121</color>
+    <color name="warn">#FFA000</color>
+    <color name="green">#4CAF50</color>
 
     <!-- Полупрозрачный черный для прямоугольника -->
     <color name="semi_transparent_black">#80000000</color>

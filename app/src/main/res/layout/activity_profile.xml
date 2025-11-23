@@ -139,30 +139,5 @@
                 android:background="@drawable/btn_secondary"/>
         </LinearLayout>
 
-        <!-- История заявок -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/rounded_background"
-            android:padding="20dp"
-            android:layout_marginBottom="20dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="История заказов"
-                android:textSize="18sp"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_marginBottom="15dp"/>
-
-            <LinearLayout
-                android:id="@+id/historyContainer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
-        </LinearLayout>
-
     </LinearLayout>
 </ScrollView>

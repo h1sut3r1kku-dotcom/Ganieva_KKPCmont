@@ -8,19 +8,36 @@
     <string name="hint_email">E-mail</string>
     <string name="hint_password">Пароль</string>
     <string name="hint_password_repeat">Повторите пароль</string>
-    <string name="hint_name">Имя</string>
-    <string name="hint_phone">Телефон</string>
     <string name="home_title">Главная</string>
     <string name="btn_new_request">Создать новую заявку</string>
     <string name="btn_history">История заявок</string>
     <string name="btn_settings">Настройки</string>
     <string name="new_request_title">Новая заявка</string>
     <string name="hint_title">3аголовок</string>
-    <string name="hint_desc">Описание проблемы</string>
-    <string name="pick_date">Выберите дату</string>
-    <string name="pick_time">Выберите время</string>
-    <string name="btn_send_request">Отправить заявку ></string>
     <string name="history_title">История заявок</string>
     <string name="history_empty"> Пока нет заявок</string>
     <string name="btn_show">Показать</string>
+
+    <string name="create_request_title">Создание заявки (ремонт ПК)</string>
+    <string name="hint_name">Имя владельца</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="hint_model">Модель устройства</string>
+    <string name="hint_desc">Описание неисправности</string>
+    <string name="pick_date">Выберите дату</string>
+    <string name="pick_time">Выберите время</string>
+    <string name="picked_datetime_placeholder">Дата: — Время: —</string>
+    <string name="btn_send_request">Отправить заявку</string>
+    <string name="category">Категория</string>
+
+    <string-array name="request_categories">
+        <item>Ремонт техники</item>
+        <item>Ремонт компьютера</item>
+        <item>Вызов мастера</item>
+    </string-array>
+
+    <string-array name="request_category_values">
+        <item>TECH</item>
+        <item>PC</item>
+        <item>MASTER</item>
+    </string-array>
 </resources>
