@@ -5,6 +5,8 @@
     android:padding="16dp"
     android:background="@color/background_color">
 
+    <!-- эщкереее это работа Ганиевой Камиллы, я очень хочу спать и есть -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
