@@ -5,8 +5,6 @@
     android:padding="16dp"
     android:background="@color/background_color">
 
-    <!-- эщкереее это работа Ганиевой Камиллы, я очень хочу спать и есть -->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -257,7 +255,7 @@
                 android:textSize="18sp"
                 android:textAllCaps="false"
                 android:background="@drawable/btn_primary"
-                android:textColor="@color/white" />
+                android:textColor="@color/tvet" />
 
         </LinearLayout>
 

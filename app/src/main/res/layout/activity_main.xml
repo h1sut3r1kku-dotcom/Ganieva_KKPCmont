@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     tools:context=".MainActivity">
-
-    <!-- Полупрозрачный фон под кнопки -->
     <View
         android:id="@+id/background_rectangle"
         android:layout_width="279dp"
@@ -33,6 +31,7 @@
             android:textColor="@color/title_color"
             android:textSize="30sp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/tvClock"
             android:layout_width="match_parent"
@@ -47,8 +46,8 @@
             android:id="@+id/btn_create_request"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/btn_secondary"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/btn_primary2"
             android:text="Создать заявку на ремонт техники"
             android:textColor="@color/button_text"
             android:textSize="14sp" />
@@ -57,20 +56,19 @@
             android:id="@+id/btn_requests_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/btn_secondary"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_primary2"
             android:text="Список заявок"
-            android:textColor="@color/button_text"
-            android:textSize="14sp" />
+            android:textColor="@color/button_text" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_stats"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/btn_primary"
-            android:text="Статистика"
-            android:textColor="@color/button_text" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_primary"
+        android:text="Статистика"
+        android:textColor="@color/tvet" />
 
     </LinearLayout>
 

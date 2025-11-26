@@ -41,7 +41,7 @@
             <Button
                 android:id="@+id/btnSortTechDate"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/btn_secondary"
                 android:text="По дате"
@@ -52,7 +52,7 @@
             <Button
                 android:id="@+id/btnSortTechName"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По имени"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -62,7 +62,7 @@
             <Button
                 android:id="@+id/btnSortTechStatus"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По статусу"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -99,7 +99,7 @@
             <Button
                 android:id="@+id/btnSortPcDate"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По дате"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -109,7 +109,7 @@
             <Button
                 android:id="@+id/btnSortPcName"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По имени"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -119,7 +119,7 @@
             <Button
                 android:id="@+id/btnSortPcStatus"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По статусу"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -157,7 +157,7 @@
             <Button
                 android:id="@+id/btnSortMasterDate"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/btn_secondary"
                 android:text="По дате"
@@ -168,7 +168,7 @@
             <Button
                 android:id="@+id/btnSortMasterName"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По имени"
                 android:textSize="12sp"
                 android:textAllCaps="false"
@@ -178,7 +178,7 @@
             <Button
                 android:id="@+id/btnSortMasterStatus"
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="48dp"
                 android:text="По статусу"
                 android:textSize="12sp"
                 android:textAllCaps="false"
