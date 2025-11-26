@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="title_color">#FFC400</color>
-    <color name="background_color">#225453</color>
+    <color name="title_color">#3c50fa</color>
+    <color name="background_color">#1b1c22</color>
     <color name="button_background">#FFFFFFFF</color>
-    <color name="button_text">#FF000000</color>
+    <color name="button_text">#FFFFFFFF</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="text_color_2">#0d2020</color>
@@ -11,7 +11,8 @@
     <color name="card_dark_bg">#FF212121</color>
     <color name="warn">#FFA000</color>
     <color name="green">#4CAF50</color>
-
+    <color name="tvet">#25262c</color>
+    <color name="plashka">#575758</color>
     <!-- Полупрозрачный черный для прямоугольника -->
-    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_black">#191a1f</color>
 </resources>

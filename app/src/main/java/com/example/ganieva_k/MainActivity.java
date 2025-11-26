@@ -1,5 +1,6 @@
 package com.example.ganieva_k;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btnCreateRequest, btnRequestsList, btnStats;
     private final Handler clockHandler = new Handler(Looper.getMainLooper());
 
+    @SuppressLint("MissingInflatedId")
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
